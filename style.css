@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+}
+
+/* <html> = the root */
+html {
+  font-size: 62.5%; /* (62.5/100) * 16px = 10px */
+  -webkit-text-size-adjust: none; /* for iOS Safari */
+  text-size-adjust: none; /* for other mobile browsers */
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+  list-style: none;
+}
+
+menu,
+ol,
+ul {
+  padding-left: 0;
+}
+
+article ol,
+article ul {
+  list-style-position: inside;
+}
+
+a {
+  /* Places underlines below the descenders */
+  text-underline-position: under;
+
+  /* Sets the thickness as a percentage of the font size */
+  text-decoration-thickness: 8;
+}
+
+label,
+button,
+select,
+summary,
+[type="radio"],
+[type="submit"],
+[type="checkbox"] {
+  cursor: pointer;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* HEADER SECTION */
+
+.header-section {
+  background-color: aqua;
+  padding: 0 12rem;
+  padding-bottom: 6.4rem;
+  background-color: #1F2937;
+  color: #F9FAF9;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  padding-top: 1.2rem;
+}
+
+.navbar a {
+  color: #F9FAF9;
+  text-decoration: none;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+
+.opening {
+  display: flex;
+  gap: 2rem;
+}
+
+.opening-text {
+  flex: 1;
+}
+
+.opening-text h1 {
+  margin-bottom: 4px;
+}
+
+.opening-text p {
+  margin-bottom: 6px;
+  line-height: 1.2;
+}
+
+.opening-text button {
+  font-size: 1rem;
+  background-color: #3882F6;
+  border-radius: 3px;
+  color: #F9FAF9;
+  padding: 4px 14px;
+}
+
+.opening-img {
+  flex: 1;
+  background-color: #74787e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* HEADER SECTION */
+
+/* CARD SECTION */
+
+.card-section {
+  
+}
+
+/* CARD SECTION */
